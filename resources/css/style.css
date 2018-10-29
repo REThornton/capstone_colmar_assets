@@ -1,2 +1,29 @@
-/*MEDIA QUERIES-TABLET PORTRAIT*/
-/*COMMENTS*/
+/*DESKTOP*/
+/*MEDIA QUERIES-MOBILE*/
+/*top: to account for fixed header overlay*/
+
+
+
+/*HEADER/LOGO/NAV*/
+h1{
+  color: pink;
+}
+
+
+/*BANNER ONE/FLEXCONTAINER*/
+
+
+
+/*BANNER TWO/FLEXCONTAINER*/
+
+
+
+/*IMAGE GRID/FLEXCONTAINER*/
+
+
+
+/*VIDEO BANNER/FLEXCONTAINER*/
+
+
+
+/*FOOTER*/
