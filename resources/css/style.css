@@ -12,18 +12,47 @@ h1{
 
 /*BANNER ONE/FLEXCONTAINER*/
 
+.firstimage{
+  display: flex;
+  background-color: gray;
+  width: 100%;
+}
+
+/*BANNER ONE-BUTTON*/
+
 
 
 /*BANNER TWO/FLEXCONTAINER*/
 
+.secondimage{
+  display: inline-block;
+  width: 100%;
 
+}
+.mainimage{
+  display: flex;
+  width: 60%;
+}
+.threeimages{
+  display: inline-block;
+  flex-direction: column;
 
+}
+.subimages{
+  display: flex;
+}
 /*IMAGE GRID/FLEXCONTAINER*/
 
 
 
 /*VIDEO BANNER/FLEXCONTAINER*/
 
-
+.videobanner{
+  display: flex;
+  width: 100%;
+}
+video{
+  width: 60%;
+}
 
 /*FOOTER*/
