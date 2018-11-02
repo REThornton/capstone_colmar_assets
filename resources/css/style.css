@@ -2,25 +2,66 @@
 /*MEDIA QUERIES-MOBILE*/
 /*top: to account for fixed header overlay*/
 
+/*GENERAL STYLING*/
 
-
-/*HEADER/LOGO/NAV*/
 h1{
-  color: pink;
+  color: black;
+  font-size: 32px;
 }
 
+/*HEADER/LOGO/NAV*/
+
+.header{
+  display: flex;
+  padding: 0 24px;
+  height: 64px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a{
+  padding-left: 16px;
+}
 
 /*BANNER ONE/FLEXCONTAINER*/
 
 .firstimage{
   display: flex;
   background-color: gray;
-  width: 100%;
+  padding: 32px 24px;
+  align-items: center;
+}
+
+.firstimage img{
+  width: 60%;
+}
+
+.firstimage .bannerone{
+  padding-left: 24px;
+}
+
+.bannerone h1{
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.bannerone p{
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 /*BANNER ONE-BUTTON*/
 
-
+button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 8px 0;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 400px;
+    cursor: pointer;
+}
 
 /*BANNER TWO/FLEXCONTAINER*/
 
@@ -43,7 +84,11 @@ h1{
 }
 /*IMAGE GRID/FLEXCONTAINER*/
 
-
+.imagegrid{
+  display: flex;
+  padding: 32px 72px;
+  background-color: gray;
+}
 
 /*VIDEO BANNER/FLEXCONTAINER*/
 
