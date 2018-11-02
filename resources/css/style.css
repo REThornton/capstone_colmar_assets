@@ -163,11 +163,19 @@ button {
 
 .videobanner{
   display: flex;
-  width: 100%;
   padding: 0 0 32px 24px;
 }
+
+.videobanner img{
+  width: 35%;
+  height: auto;
+  padding: 16px;
+  background-color: gray;
+}
+
 video{
   width: 60%;
+  padding-right: 24px;
 }
 
 .videotitle h2 {
@@ -175,6 +183,29 @@ video{
   font-weight: bold;
   text-align: center;
   padding: 32px 0;
+}
+
+.Reimagine h3, .Now h3, .Fisma h3{
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.Reimagine p, .Now p, .Fisma p{
+  font-size: 2rem;
+}
+
+.Fisma {
+
+}
+
+.Now {
+
+}
+
+.Reimagine{
+  display: flex;
+  padding: 0 24px 32px 24px;
+  width: 60%;
 }
 
 /*FOOTER*/
