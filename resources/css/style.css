@@ -204,23 +204,34 @@ video{
   font-weight: bold;
   text-align: center;
   padding: 32px 0;
+  width: 100%;
 }
 
-.Reimagine h3, .Now-cap h3, .Fisma-cap h3{
+.Now-cap h3, .Fisma-cap h3{
   font-size: 3rem;
   font-weight: bold;
 }
 
-.Reimagine p, .Now-cap p, .Fisma-cap p{
+.Now-cap p, .Fisma-cap p{
   font-size: 2rem;
+}
+
+.FismaNowImages{
+  
+}
+.FismaNowText{
+
 }
 
 .Fisma-img {
   background-color: gray;
+  width: 35%;
+  height: auto;
 }
 
 .Now-img {
-
+  width: 35%;
+  height: auto;
 }
 .Fisma-cap {
   background-color: gray;
@@ -230,9 +241,20 @@ video{
   width: 65%;
 }
 .Reimagine{
-  display: flex;
+  display: inline-block;
   padding: 0 24px 32px 24px;
   width: 60%;
+}
+.Reimagine p {
+  font-size: 2rem;
+  width: 60%;
+  padding-bottom: 32px;
+}
+.Reimagine h3 {
+  font-size: 3rem;
+  font-weight: bold;
+  width: 60%;
+  padding-bottom: 8px;
 }
 
 /*FOOTER*/
