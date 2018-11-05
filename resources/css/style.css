@@ -6,6 +6,7 @@
 a {
   color: skyblue;
 }
+
 h1{
   color: black;
   font-size: 32px;
@@ -67,38 +68,52 @@ button {
 
 /*BANNER TWO/FLEXCONTAINER*/
 
-.secondimage{
-  display: inline-block;
-  padding: 32px 0 0 24px;
-  align-items: center;
+.orientation-cap h3, .campus-cap h3, .guest-cap h3 {
+  font-size: 2.5rem;
+  font-weight: bold;
 }
-.bannertwo{
-  width: 40%;
 
+.orientation-cap p, .campus-cap p, .guest-cap p {
+  font-size: 1.8rem;
 }
-.bannertwo img{
+
+.orientation-image {
   width: 35%;
   height: auto;
 }
-.bannertwo h3{
-  font-size: 3rem;
-  font-weight: bold;
+
+.Campus-image {
+  width: 35%;
+  height: auto;
 }
-.bannertwo p{
-  font-size: 2rem;
-  padding: 8px 0;
+
+.secondimage{
+  display: flex;
+  padding: 32px 0 0 24px;
+
 }
+.bannertwo{
+  display: flex;
+  width: 40%;
+  flex-wrap: wrap;
+}
+
 .bannertwo a{
   font-size: 2rem;
 }
-.bannertwo h3 p{
-  width: 65%;
-}
-.secondimage img {
-  width: 60%;
-}
 
 /*BANNER TWO-PART 2*/
+
+.secondhalf{
+  display: flex;
+  padding: 32px 0 0 24px;
+
+}
+
+.guest-image {
+  width: 35%;
+  height: auto;
+}
 
 .practicing h2{
   font-size: 3rem;
@@ -111,7 +126,9 @@ button {
   font-size: 2rem;
 }
 .practicing{
+  display: flex;
   width: 60%;
+  flex-wrap: wrap;
 }
 .bottomhalf{
   background-color: gray;
@@ -186,12 +203,8 @@ button {
   display: flex;
   flex-wrap: wrap;
   width: 40%;
-  flex-direction: column;
-}
-.videobanner img{
-  width: 35%;
-  height: auto;
-  padding: 16px;
+  border: 5px solid red;
+  flex-wrap: wrap;
 }
 
 video{
@@ -204,23 +217,15 @@ video{
   font-weight: bold;
   text-align: center;
   padding: 32px 0;
-  width: 100%;
 }
 
 .Now-cap h3, .Fisma-cap h3{
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 
 .Now-cap p, .Fisma-cap p{
-  font-size: 2rem;
-}
-
-.FismaNowImages{
-  
-}
-.FismaNowText{
-
+  font-size: 1.8rem;
 }
 
 .Fisma-img {
@@ -232,6 +237,7 @@ video{
 .Now-img {
   width: 35%;
   height: auto;
+
 }
 .Fisma-cap {
   background-color: gray;
@@ -239,6 +245,7 @@ video{
 }
 .Now-cap {
   width: 65%;
+
 }
 .Reimagine{
   display: inline-block;
