@@ -24,8 +24,21 @@ h1{
 
 nav a{
   padding-left: 16px;
+  color: skyblue;
+  font-size: 1.5rem;
 }
 
+.title{
+  height: 32px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.title2{
+  height: 32px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: gray;
+}
 /*BANNER ONE/FLEXCONTAINER*/
 
 .firstimage{
@@ -43,13 +56,18 @@ nav a{
   padding-left: 24px;
 }
 
-.bannerone h1{
+.bannerone span {
   font-size: 5rem;
   font-weight: bold;
 }
 
 .bannerone p{
   font-size: 2rem;
+  font-weight: bold;
+}
+
+.bannerone h1{
+  font-size: 5rem;
   font-weight: bold;
 }
 
@@ -77,6 +95,11 @@ button {
   font-size: 1.8rem;
 }
 
+.orientation-cap a, .campus-cap a, .guest-cap a {
+  font-size: 2rem;
+  color: skyblue;
+}
+
 .orientation-image {
   width: 35%;
   height: auto;
@@ -90,16 +113,30 @@ button {
 .secondimage{
   display: flex;
   padding: 32px 0 0 24px;
-
 }
+
+.secondimage img {
+  padding-right: 24px;
+}
+
 .bannertwo{
-  display: flex;
+  display: block;
   width: 40%;
   flex-wrap: wrap;
 }
 
-.bannertwo a{
-  font-size: 2rem;
+.orientation-container {
+  display: inline-flex;
+  width: 40%;
+  border: 1px solid gray;
+  padding: 16px;
+}
+
+.campus-container {
+
+  width: 40%;
+  border: 1px solid gray;
+  padding: 16px;
 }
 
 /*BANNER TWO-PART 2*/
@@ -110,26 +147,36 @@ button {
 
 }
 
+.practicing{
+  display: flex;
+  width: 60%;
+  flex-wrap: wrap;
+  padding-right: 24px;
+}
+
+.guest-container {
+  display: flex;
+  width: 40%;
+  background-color: gray;
+  margin-bottom: 32px;
+  padding: 16px;
+}
+
 .guest-image {
   width: 35%;
   height: auto;
+
 }
 
 .practicing h2{
   font-size: 3rem;
   font-weight: bold;
 }
-.practicing a{
-  font-size: 2rem;
-}
+
 .practicing p{
   font-size: 2rem;
 }
-.practicing{
-  display: flex;
-  width: 60%;
-  flex-wrap: wrap;
-}
+
 .bottomhalf{
   background-color: gray;
   width: 40%;
