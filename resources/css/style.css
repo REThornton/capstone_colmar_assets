@@ -39,6 +39,7 @@ nav a{
   font-weight: bold;
   color: gray;
 }
+
 /*BANNER ONE/FLEXCONTAINER*/
 
 .firstimage{
@@ -86,18 +87,23 @@ button {
 
 /*BANNER TWO/FLEXCONTAINER*/
 
-.orientation-cap h3, .campus-cap h3, .guest-cap h3 {
+.orientation-cap h3, .campus-cap h3 {
   font-size: 2.5rem;
   font-weight: bold;
+  padding-bottom: 8px;
+  padding-left: 50px;
 }
 
-.orientation-cap p, .campus-cap p, .guest-cap p {
+.orientation-cap p, .campus-cap p {
   font-size: 1.8rem;
+  padding-bottom: 8px;
+  padding-left: 50px;
 }
 
-.orientation-cap a, .campus-cap a, .guest-cap a {
+.orientation-cap a, .campus-cap a {
   font-size: 2rem;
   color: skyblue;
+  padding-left: 50px;
 }
 
 .orientation-image {
@@ -115,28 +121,29 @@ button {
   padding: 32px 0 0 24px;
 }
 
-.secondimage img {
+.information-image {
   padding-right: 24px;
+  width: 60%;
 }
 
 .bannertwo{
-  display: block;
+  display: inline-block;
   width: 40%;
   flex-wrap: wrap;
 }
 
 .orientation-container {
   display: inline-flex;
-  width: 40%;
   border: 1px solid gray;
   padding: 16px;
+  height: 50%;
 }
 
 .campus-container {
-
-  width: 40%;
+  display: inline-flex;
   border: 1px solid gray;
   padding: 16px;
+  height: 50%;
 }
 
 /*BANNER TWO-PART 2*/
@@ -144,7 +151,6 @@ button {
 .secondhalf{
   display: flex;
   padding: 32px 0 0 24px;
-
 }
 
 .practicing{
@@ -152,10 +158,11 @@ button {
   width: 60%;
   flex-wrap: wrap;
   padding-right: 24px;
+  margin-right: 47px;
 }
 
 .guest-container {
-  display: flex;
+  display: inline-flex;
   width: 40%;
   background-color: gray;
   margin-bottom: 32px;
@@ -165,7 +172,25 @@ button {
 .guest-image {
   width: 35%;
   height: auto;
+}
 
+.guest-cap h3 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-bottom: 8px;
+  padding-left: 25px;
+}
+
+.guest-cap p {
+  font-size: 1.8rem;
+  padding-bottom: 8px;
+  padding-left: 25px;
+}
+
+.guest-cap a {
+  font-size: 2rem;
+  color: skyblue;
+  padding-left: 25px;
 }
 
 .practicing h2{
@@ -174,25 +199,6 @@ button {
 }
 
 .practicing p{
-  font-size: 2rem;
-}
-
-.bottomhalf{
-  background-color: gray;
-  width: 40%;
-}
-.bottomhalf img{
-  height: auto;
-  width: 35%;
-}
-.bottomhalf h3{
-  font-size: 3rem;
-  font-weight: bold;
-}
-.bottomhalf a{
-  font-size: 2rem;
-}
-.bottomhalf p{
   font-size: 2rem;
 }
 
@@ -251,10 +257,9 @@ button {
   flex-wrap: wrap;
   width: 40%;
   border: 5px solid red;
-  flex-wrap: wrap;
 }
 
-video{
+.videosize {
   width: 60%;
   padding-right: 24px;
 }
@@ -269,10 +274,12 @@ video{
 .Now-cap h3, .Fisma-cap h3{
   font-size: 2.5rem;
   font-weight: bold;
+  padding-left: 25px;
 }
 
 .Now-cap p, .Fisma-cap p{
   font-size: 1.8rem;
+  padding-left: 25px;
 }
 
 .Fisma-img {
