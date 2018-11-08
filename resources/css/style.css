@@ -1,7 +1,28 @@
-/*DESKTOP*/
-/*MEDIA QUERIES-MOBILE*/
-/*top: to account for fixed header overlay*/
+/*MEDIA QUERIES-DESKTOP*/
 
+@media only screen and (min-width: 1024px){
+  .header2{
+    display: none;
+  }
+}
+
+/*MEDIA QUERIES-MOBILE PHONE*/
+
+@media only screen and (max-width: 470px){
+  .header-img, .title, .title2, .header-nav {
+    display: none;
+  }
+  .header2{
+    display: flex;
+    height: 64px;
+    justify-content: space-between;
+  }
+  .header2 img{
+    padding-bottom: 32px;
+  }
+}
+
+/*DESKTOP*/
 /*GENERAL STYLING*/
 a {
   color: skyblue;
