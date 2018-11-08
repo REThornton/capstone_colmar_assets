@@ -92,6 +92,7 @@ button {
   font-weight: bold;
   padding-bottom: 8px;
   padding-left: 50px;
+
 }
 
 .orientation-cap p, .campus-cap p {
@@ -137,13 +138,16 @@ button {
   border: 1px solid gray;
   padding: 16px;
   height: 50%;
+  align-items: center;
 }
 
 .campus-container {
   display: inline-flex;
   border: 1px solid gray;
   padding: 16px;
+  margin-bottom: 30px;
   height: 50%;
+  align-items: center;
 }
 
 /*BANNER TWO-PART 2*/
@@ -167,6 +171,7 @@ button {
   background-color: gray;
   margin-bottom: 32px;
   padding: 16px;
+  align-items: center;
 }
 
 .guest-image {
