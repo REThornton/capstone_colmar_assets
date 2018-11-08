@@ -1,7 +1,7 @@
 /*MEDIA QUERIES-DESKTOP*/
 
 @media only screen and (min-width: 1024px){
-  .header2{
+  .header2, .videotitle2, .videobanner2, .videosize2 {
     display: none;
   }
 }
@@ -9,9 +9,10 @@
 /*MEDIA QUERIES-MOBILE PHONE*/
 
 @media only screen and (max-width: 470px){
-  .header-img, .title, .title2, .header-nav {
+  .header-img, .title, .title2, .header-nav, .secondimage img, .practicing h2, .practicing p, .imageclass, .image-courses, .image-p, .Fisma-img, .Fisma-cap, .Now-img, .Now-cap, .Reimagine h3, .Reimagine p, .Terms, .videoflexcont-item, .videotitle, .videobanner, .videosize {
     display: none;
   }
+
   .header2{
     display: flex;
     height: 64px;
@@ -19,6 +20,42 @@
   }
   .header2 img{
     padding-bottom: 32px;
+  }
+  .firstimage{
+    display: flex;
+    background-color: gray;
+    padding: 32px 24px;
+
+  }
+
+  .firstimage img{
+    width: 470px;
+  }
+
+  .firstimage .bannerone{
+    padding-left: 24px;
+  }
+  .imageheader {
+    font-size: 3rem;
+    font-weight: bold;
+    height: auto;
+    text-align: left;
+    margin-bottom: 8px;
+    background-color: gray;
+  }
+  .videobanner2{
+    display: flex;
+    padding: 0 0 24px 0;
+  }
+  .videosize2 {
+    width: 100%;
+    padding-right: 0;
+  }
+  .videotitle2 h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 32px 0 16px 0;
   }
 }
 
