@@ -256,7 +256,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   width: 40%;
-  border: 5px solid red;
+  align-items: center;
 }
 
 .videosize {
@@ -296,6 +296,7 @@ button {
 .Fisma-cap {
   background-color: gray;
   width: 65%;
+  padding: 60px 0;
 }
 .Now-cap {
   width: 65%;
