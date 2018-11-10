@@ -9,7 +9,7 @@
 /*MEDIA QUERIES-MOBILE PHONE*/
 
 @media only screen and (max-width: 470px){
-  .header-img, .title, .title2, .header-nav, .secondimage img, .practicing h2, .practicing p, .imageclass, .image-courses, .image-p, .Fisma-img, .Fisma-cap, .Now-img, .Now-cap, .Reimagine h3, .Reimagine p, .Terms, .videoflexcont-item, .videotitle, .videobanner, .videosize {
+  .header-img, .title, .title2, .header-nav, .secondimage img, .practicing h2, .practicing p, .imageclass, .image-courses, .image-p, .Fisma-img, .Fisma-cap, .Now-img, .Now-cap, .Reimagine h3, .Reimagine p, .Terms, .videoflexcont-item, .videotitle, .videobanner, .videosize, .imageheader {
     display: none;
   }
 
@@ -35,14 +35,6 @@
   .firstimage .bannerone{
     padding-left: 24px;
   }
-  .imageheader {
-    font-size: 3rem;
-    font-weight: bold;
-    height: auto;
-    text-align: left;
-    margin-bottom: 8px;
-    background-color: gray;
-  }
   .videobanner2{
     display: flex;
     padding: 0 0 24px 0;
@@ -56,6 +48,27 @@
     font-weight: bold;
     text-align: center;
     padding: 32px 0 16px 0;
+  }
+  .Colmar {
+    padding: 16px 0;
+    font-size: .5rem;
+  }
+  .imageheader2 {
+    font-size: 2rem;
+    font-weight: bold;
+    height: auto;
+    text-align: left;
+    margin: 16px 32px;
+    padding: 16px 16px 24px 16px;
+    background-color: gray;
+  }
+  .start-learning {
+    font-size: 3rem;
+    font-weight: bold;
+    height: auto;
+    text-align: center;
+    margin-top: 32px;
+    padding: 16px 16px 24px 16px;
   }
 }
 
