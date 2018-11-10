@@ -1,7 +1,7 @@
 /*MEDIA QUERIES-DESKTOP*/
 
 @media only screen and (min-width: 1024px){
-  .header2, .videotitle2, .videobanner2, .videosize2, .imageheader2, .orientation-cap2, .campus-cap2, .guest-cap2, .bannerone2, .firstimage2 {
+  .header2, .videotitle2, .videobanner2, .videosize2, .imageheader2, .orientation-cap2, .campus-cap2, .guest-cap2, .bannerone2, .firstimage2, .bannertwo2 {
     display: none;
   }
 }
@@ -9,10 +9,10 @@
 /*MEDIA QUERIES-MOBILE PHONE*/
 
 @media only screen and (max-width: 470px){
-  .header-img, .title, .title2, .header-nav, .secondimage img, .practicing h2, .practicing p, .imageclass, .image-courses, .image-p, .Fisma-img, .Fisma-cap, .Now-img, .Now-cap, .Reimagine h3, .Reimagine p, .Terms, .videoflexcont-item, .videotitle, .videobanner, .videosize, .imageheader, .orientation-cap, .campus-cap, .guest-cap,  .campus-container {
+  .header-img, .title, .title2, .header-nav, .secondimage img , .orientation-container , .practicing h2, .practicing p, .imageclass, .image-courses, .image-p, .Fisma-img, .Fisma-cap, .Now-img, .Now-cap, .Reimagine h3, .Reimagine p, .Terms, .videoflexcont-item, .videotitle, .videobanner, .videosize, .imageheader , .orientation-cap , .campus-cap , .guest-cap ,  .campus-container {
     display: none;
   }
-  .firstimage1, .bannerone, .guest-image img, .Campus-image, .button1 {
+  .firstimage1 , .bannerone , .guest-image img , .Campus-image , .button1 , .bannertwo , .secondimage , .orientation-container , .orientation-image , .secondhalf , .practicing , .guest-container , .guest-image {
     display: none;
   }
   .header2{
@@ -61,18 +61,19 @@
   .orientation-cap2 h3, .campus-cap2 h3, .guest-cap2 h3 {
     font-size: 2.5rem;
     font-weight: bold;
-    padding-bottom: 8px;
-    padding-left: 50px;
+    padding-bottom: 16px;
+    padding-left: 16px;
   }
   .orientation-cap2 p, .campus-cap2 p, .guest-cap2 p {
     font-size: 1.8rem;
-    padding-bottom: 8px;
-    padding-left: 50px;
+    padding-bottom: 16px;
+    padding-left: 16px;
   }
   .orientation-cap2 a, .campus-cap2 a, .guest-cap2 a {
     font-size: 2rem;
     color: skyblue;
-    padding-left: 50px;
+    padding-left: 16px;
+    margin-bottom: 32px;
   }
   .bannerone2 p{
     font-size: 2rem;
@@ -99,6 +100,11 @@
 .firstimage2 img {
   width: 470px;
   height: auto;
+}
+.bannertwo2 img {
+  padding: 16px;
+  max-width: 420px;
+  margin-top: 64px;
 }
 }
 
