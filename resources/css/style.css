@@ -36,6 +36,8 @@
     font-weight: bold;
     text-align: center;
     padding: 32px 0 16px 0;
+    color: teal;
+    font-family: 'Muli', 'Fira Sans', sans-serif;
   }
   .imageheader2 {
     font-size: 2rem;
@@ -44,7 +46,9 @@
     text-align: left;
     margin: 16px 32px;
     padding: 16px 16px 24px 16px;
-    background-color: gray;
+    background-color: silver;
+    color: rgba(255, 0, 0, 0.5);
+    font-family: 'Muli', 'Fira Sans', sans-serif;
   }
   .start-learning2 {
     font-size: 3rem;
@@ -53,36 +57,45 @@
     text-align: center;
     margin-top: 32px;
     padding: 16px 16px 24px 16px;
+    color: teal;
+    font-family: 'Muli', 'Fira Sans', sans-serif;
   }
   .orientation-cap2 h3, .campus-cap2 h3, .guest-cap2 h3 {
     font-size: 2.5rem;
     font-weight: bold;
     padding-bottom: 16px;
     padding-left: 16px;
+    font-family: 'Muli', 'Fira Sans', sans-serif;
   }
   .orientation-cap2 p, .campus-cap2 p, .guest-cap2 p {
     font-size: 1.8rem;
     padding-bottom: 16px;
     padding-left: 16px;
+    font-family: 'Crimson Text', serif;
   }
   .orientation-cap2 a, .campus-cap2 a, .guest-cap2 a {
     font-size: 2rem;
-    color: skyblue;
+    color: MediumOrchid;
     padding-left: 16px;
     margin-bottom: 32px;
+    font-style: italic;
+    font-family: 'Crimson Text', serif;
   }
   .bannerone2 {
-    background-color: gray;
+    background-color: silver;
   }
   .bannerone2 p{
     font-size: 2rem;
     font-weight: bold;
     padding: 0 16px 24px 16px;
+    font-family: 'Crimson Text', serif;
   }
   .bannerone2 h1{
     font-size: 3.5rem;
     font-weight: bold;
     padding: 32px 16px;
+    color: teal;
+    font-family: 'Muli', 'Fira Sans', sans-serif;
   }
   .button2 {
       background-color: black;
@@ -92,10 +105,11 @@
       text-align: center;
       font-size: 1.5rem;
       cursor: pointer;
+      border-radius: 7.5px;
   }
   .firstimage2{
     align-items: center;
-    background-color: gray;
+    background-color: silver;
   }
 .firstimage2 img {
   width: 470px;
@@ -109,6 +123,8 @@
 .Colmar2 {
   padding: 16px 0;
   font-size: 1rem;
+  color: rgba(255, 0, 0, 0.5);
+  font-family: 'Crimson Text', serif;
 }
 
 }
@@ -116,7 +132,11 @@
 /*DESKTOP*/
 /*GENERAL STYLING*/
 a {
-  color: skyblue;
+  color: MediumOrchid;
+  text-decoration: underline;
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Crimson Text', serif;
 }
 
 h1{
@@ -136,27 +156,33 @@ h1{
 
 nav a{
   padding-left: 16px;
-  color: skyblue;
+  color: rgba(255, 0, 0, 0.5);
   font-size: 1.5rem;
+  font-family: 'Crimson Text', serif;
 }
 
 .title{
   height: 32px;
   font-size: 2rem;
   font-weight: bold;
+  text-shadow: 2px 2px rgba(255, 0, 0, 0.5);
+  text-transform: uppercase;
+  font-family: 'Crimson Text', serif;
 }
 .title2{
   height: 32px;
   font-size: 2rem;
   font-weight: bold;
   color: gray;
+  text-transform: uppercase;
+  font-family: 'Crimson Text', serif;
 }
 
 /*BANNER ONE/FLEXCONTAINER*/
 
 .firstimage1{
   display: flex;
-  background-color: gray;
+  background-color: silver;
   padding: 32px 24px;
   align-items: center;
 }
@@ -177,11 +203,14 @@ nav a{
 .bannerone p{
   font-size: 2rem;
   font-weight: bold;
+  font-family: 'Crimson Text', serif;
 }
 
 .bannerone h1{
   font-size: 5rem;
   font-weight: bold;
+  color: teal;
+  font-family: 'Muli', 'Fira Sans', sans-serif;
 }
 
 /*BANNER ONE-BUTTON*/
@@ -195,6 +224,7 @@ button {
     font-size: 1.5rem;
     width: 400px;
     cursor: pointer;
+    border-radius: 7.5px;
 }
 
 /*BANNER TWO/FLEXCONTAINER*/
@@ -204,19 +234,23 @@ button {
   font-weight: bold;
   padding-bottom: 8px;
   padding-left: 50px;
-
+  color: LightSeaGreen;
+  font-family: 'Muli', 'Fira Sans', sans-serif;
 }
 
 .orientation-cap p, .campus-cap p {
   font-size: 1.8rem;
   padding-bottom: 8px;
   padding-left: 50px;
+  font-family: 'Crimson Text', serif;
 }
 
 .orientation-cap a, .campus-cap a {
   font-size: 2rem;
-  color: skyblue;
   padding-left: 50px;
+  color: MediumOrchid;
+  font-style: italic;
+  font-family: 'Crimson Text', serif;
 }
 
 .orientation-image {
@@ -280,7 +314,7 @@ button {
 .guest-container {
   display: inline-flex;
   width: 40%;
-  background-color: gray;
+  background-color: silver;
   margin-bottom: 32px;
   padding: 16px;
   align-items: center;
@@ -296,27 +330,35 @@ button {
   font-weight: bold;
   padding-bottom: 8px;
   padding-left: 25px;
+  color: LightSeaGreen;
+  font-family: 'Muli', 'Fira Sans', sans-serif;
 }
 
 .guest-cap p {
   font-size: 1.8rem;
   padding-bottom: 8px;
   padding-left: 25px;
+  font-family: 'Crimson Text', serif;
 }
 
 .guest-cap a {
   font-size: 2rem;
-  color: skyblue;
+  color: MediumOrchid;
   padding-left: 25px;
+  font-style: italic;
+  font-family: 'Crimson Text', serif;
 }
 
 .practicing h2{
   font-size: 3rem;
   font-weight: bold;
+  color: teal;
+  font-family: 'Muli', 'Fira Sans', sans-serif;
 }
 
 .practicing p{
   font-size: 2rem;
+  font-family: 'Crimson Text', serif;
 }
 
 /*IMAGE GRID/FLEXCONTAINER*/
@@ -328,6 +370,8 @@ button {
   text-align: center;
   margin-top: 32px;
   padding: 16px 16px 24px 16px;
+  color: teal;
+  font-family: 'Muli', 'Fira Sans', sans-serif;
 }
 
 .imagegrid{
@@ -337,7 +381,7 @@ button {
 
 .grid-container{
   display: inline-flex;
-  background-color: gray;
+  background-color: silver;
   justify-content: space-between;
 }
 
@@ -353,6 +397,8 @@ button {
   text-align: left;
   margin: 0 72px 0 72px;
   background-color: white;
+  color: rgba(255, 0, 0, 0.5);
+  font-family: 'Muli', 'Fira Sans', sans-serif;
 }
 
 .image-p {
@@ -362,6 +408,7 @@ button {
   margin: 0 72px 32px 72px;
   padding-bottom: 24px;
   background-color: white;
+  font-family: 'Crimson Text', serif;
 }
 
 .image-courses {
@@ -370,6 +417,7 @@ button {
   text-align: left;
   margin: 0 72px 0 72px;
   background-color: white;
+  font-family: 'Crimson Text', serif;
 }
 
 /*VIDEO BANNER/FLEXCONTAINER*/
@@ -395,21 +443,26 @@ button {
   font-weight: bold;
   text-align: center;
   padding: 32px 0;
+  color: teal;
+  font-family: 'Muli', 'Fira Sans', sans-serif;
 }
 
 .Now-cap h3, .Fisma-cap h3{
   font-size: 2.5rem;
   font-weight: bold;
   padding-left: 25px;
+  color: LightSeaGreen;
+  font-family: 'Muli', 'Fira Sans', sans-serif;
 }
 
 .Now-cap p, .Fisma-cap p{
   font-size: 1.8rem;
   padding-left: 25px;
+  font-family: 'Crimson Text', serif;
 }
 
 .Fisma-img {
-  background-color: gray;
+  background-color: silver;
   width: 35%;
   height: auto;
 }
@@ -420,7 +473,7 @@ button {
 
 }
 .Fisma-cap {
-  background-color: gray;
+  background-color: silver;
   width: 65%;
   padding: 60px 0;
 }
@@ -437,12 +490,15 @@ button {
   font-size: 2rem;
   width: 60%;
   padding-bottom: 32px;
+  font-family: 'Crimson Text', serif;
 }
 .Reimagine h3 {
   font-size: 3rem;
-  font-weight: bold;
+  font-weight: 500;
   width: 60%;
   padding-bottom: 8px;
+  color: teal;
+  font-family: 'Muli', 'Fira Sans', sans-serif;
 }
 
 /*FOOTER*/
@@ -453,4 +509,11 @@ footer .Colmar {
   justify-content: space-between;
   font-size: 1.5rem;
   border-top: 1px solid gray;
+  color: rgba(255, 0, 0, 0.5);
+  font-family: 'Crimson Text', serif;
+}
+footer .Terms {
+  color: rgba(255, 0, 0, 0.5);
+  text-decoration: underline;
+  font-family: 'Crimson Text', serif;
 }
