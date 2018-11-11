@@ -6,8 +6,9 @@
     <title>COLMAR ACADEMY</title>
     <link href="resources\css\reset.css" type="text/css" rel="stylesheet">
     <link href="resources\css\style.css" type="text/css" rel="stylesheet">
+    <link rel="icon" href="resources\images\cc_logo.jpg" type="image/x-icon"><!--FAVICON-->
   </head>
-  <body>
+  <body role="main">
 
     <!--HEADER/LOGO/NAV/ for desktop-->
   <div class="header">
@@ -15,7 +16,7 @@
       <img src="resources\images\ic-logo.svg" alt="Logo" class="header-img"/>
       <span class="title">colmar</span><span class="title2">academy</span>
     </span>
-    <nav class="header-nav">
+    <nav class="header-nav" role="menubar" role="link">
       <a>On campus</a>
       <a>Online</a>
       <a>For companies</a>
@@ -25,23 +26,23 @@
 
     <!--HEADER/LOGO/NAV/ for mobile-->
 
-    <div class="header2">
+    <div class="header2" role="menubar" role="link">
         <img src="resources\images\ic-logo.svg" alt="Logo"/>
-        <img src="resources\images\ic-on-campus.svg" alt="Logo"/>
-        <img src="resources\images\ic-online.svg" alt="Logo"/>
-        <img src="resources\images\ic-login.svg" alt="Logo"/>
+        <img src="resources\images\ic-on-campus.svg" alt="Campus Icon"/>
+        <img src="resources\images\ic-online.svg" alt="Online Icon"/>
+        <img src="resources\images\ic-login.svg" alt="Login Icon"/>
     </div>
 
     <!--BANNER ONE/FLEXCONTAINER for desktop-->
 <div class="banner-one">
   <div class="firstimage1">
-      <img src="resources\images\banner.jpg" alt="" />
+      <img src="resources\images\banner.jpg" alt="Image of Academy" />
    <div class="bannerone">
       <h1>Learn something new everyday</h1>
     </br>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
     </br>
-      <button class="button1" type"button">Start here</button>
+      <button class="button1" type"button" role="button">Start here</button>
    </div>
  </div>
 </div>
@@ -55,14 +56,14 @@
    </br>
      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
    </br>
-     <button class="button2" type"button">Start here</button>
+     <button class="button2" type"button" role="button">Start here</button>
   </div>
 </div>
 
     <!--BANNER TWO/FLEXCONTAINER for desktop-->
 
 <div class="secondimage">
-    <img src="resources\images\information-main.jpg" class="information-image"/>
+    <img src="resources\images\information-main.jpg" class="information-image" alt="Image of Campus"/>
     <div class="bannertwo">
     <div class="banner-two-containers">
     <div class="orientation-container">
@@ -77,7 +78,7 @@
     </div>
     <div class="campus-container">
       <div class="Campus-image">
-        <img src="resources\images\information-campus.jpg" alt=""/>
+        <img src="resources\images\information-campus.jpg" alt="Image of Campus Hall"/>
       </div>
       <div class="campus-cap">
         <h3>Our campus</h3>
@@ -98,7 +99,7 @@
   </div>
   <div class="guest-container">
   <div class="guest-image">
-    <img src="resources\images\information-guest-lecture.jpg" alt=""/>
+    <img src="resources\images\information-guest-lecture.jpg" alt="Image of Guest Lecturer"/>
   </div>
   <div class="guest-cap">
     <h3>Our guest lecture</h3>
@@ -118,13 +119,13 @@
   <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
   <a>Read more</a>
   </div>
-  <img src="resources\images\information-campus-mobile.jpg"/>
+  <img src="resources\images\information-campus-mobile.jpg" alt="Image of Campus Hall"/>
   <div class="campus-cap2">
     <h3>Our campus</h3>
     <p>Find which campus is close by you</p>
     <a>Read more</a>
   </div>
-  <img src="resources\images\information-guest-lecture-mobile.jpg"/>
+  <img src="resources\images\information-guest-lecture-mobile.jpg" alt="Image of Guest Lecturer"/>
   <div class="guest-cap2">
     <h3>Our guest lecture</h3>
     <p>Join a keynote with Oliver Sack about music in medical treatment</p>
@@ -138,19 +139,19 @@
 <div class="imagegrid">
    <div class="grid-container">
      <div class="grid-div">
-      <img class="imageclass" src="resources\images\course-software.jpg"/>
+      <img class="imageclass" src="resources\images\course-software.jpg" alt=""/>
       <h2 class="imageheader">Software engineering</h2>
       <p class="image-courses">COURSES</p>
       <p class="image-p">Web Development, Mobile Development, iOT, APIs </p>
     </div>
     <div>
-    <img class="imageclass" src="resources\images\course-computer-art.jpg"/>
+    <img class="imageclass" src="resources\images\course-computer-art.jpg" alt=""/>
     <h2 class="imageheader">Computer art</h2>
     <p class="image-courses">COURSES</p>
     <p class="image-p">Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
    </div>
    <div>
-    <img class="imageclass" src="resources\images\course-design.jpg"/>
+    <img class="imageclass" src="resources\images\course-design.jpg" alt=""/>
     <h2 class="imageheader">Design</h2>
     <p class="image-courses">COURSES</p>
     <p class="image-p">User Experience Design, User Research, Visual Design</p>
@@ -160,19 +161,19 @@
 <div class="imagegrid">
   <div class="grid-container">
     <div>
-    <img class="imageclass" src="resources\images\course-data.jpg"/>
+    <img class="imageclass" src="resources\images\course-data.jpg" alt=""/>
     <h2 class="imageheader">Data</h2>
     <p class="image-courses">COURSES</p>
     <p class="image-p">Data Science, Big Data, SQL, Data Visualization</p>
     </div>
     <div>
-    <img class="imageclass" src="resources\images\course-business.jpg"/>
+    <img class="imageclass" src="resources\images\course-business.jpg" alt=""/>
     <h2 class="imageheader">Business</h2>
     <p class="image-courses">COURSES</p>
     <p class="image-p">Product Development, Business Devlopment, Startup</p>
     </div>
     <div>
-    <img class="imageclass" src="resources\images\course-marketing.jpg"/>
+    <img class="imageclass" src="resources\images\course-marketing.jpg" alt=""/>
     <h2 class="imageheader">Marketing</h2>
     <p class="image-courses">COURSES</p>
     <p class="image-p"> Analytics, Content Marketing, Mobile Marketing</p>
@@ -196,7 +197,7 @@
     <h2>Thesis exhibit</h2>
   </div>
 <div class="videobanner">
-    <video controls loop autoplay class="videosize">
+    <video controls loop autoplay class="videosize" aria-label="Video for Thesis exhibit">
       <source src="resources\videos\thesis.mp4" type="video/mp4" >
       Your video does not support the video tag.
     </video>
@@ -248,7 +249,7 @@
 <div class="footer">
   <div class="Colmar">
     <p>&copy; 2016 Colmar Academy. All rights reserved</p>
-    <p class="Terms">Terms Privacy</p>
+    <p class="Terms" role="link">Terms Privacy</p>
   </div>
 </div>
 
